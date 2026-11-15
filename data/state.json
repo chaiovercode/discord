@@ -25,5 +25,31 @@
     "King (2026 film)": [
       60
     ]
+  },
+  "news": {
+    "seen": [
+      "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+      "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/",
+      "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+      "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss"
+    ],
+    "headlines": [
+      "Nvidia security chief left in August, team’s status unclear",
+      "Tesla opens Cybercab pre‑orders with $299 monthly fee",
+      "Apple confirms development of first smart glasses",
+      "SpaceX achieves first successful ‘chopstick’ Starship catch",
+      "Nvidia outlines backup strategy for China self‑driving market",
+      "Iran launches drone attacks on US base in Bahrain",
+      "India's health spending triples to ₹4.14 lakh crore",
+      "Yemen forces retreat from Bab al‑Mandeb strait",
+      "ASEAN denounces Myanmar violence, extends leader ban",
+      "Depression may become cyclone, heads to Andhra Pradesh"
+    ]
   }
 }
