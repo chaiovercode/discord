@@ -12,14 +12,15 @@ Daily posts for the server, sent through channel webhooks by a GitHub Actions cr
 ## Setup
 
 1. In Discord, for each channel: Edit Channel → Integrations → Webhooks → New Webhook → Copy Webhook URL.
-2. Store all URLs in one repo secret:
+2. Store each URL as its own repo secret. Each command asks you to paste the URL:
 
    ```sh
-   gh secret set DISCORD_WEBHOOKS --repo chaiovercode/discord \
-     --body '{"memes":"https://discord.com/api/webhooks/...","resources":"https://discord.com/api/webhooks/...","sports":"https://discord.com/api/webhooks/..."}'
+   gh secret set DISCORD_WEBHOOK_MEMES --repo chaiovercode/discord
+   gh secret set DISCORD_WEBHOOK_RESOURCES --repo chaiovercode/discord
+   gh secret set DISCORD_WEBHOOK_SPORTS --repo chaiovercode/discord
    ```
 
-   A job whose key is missing is skipped.
+   A job whose secret is missing is skipped.
 3. Run it once by hand: Actions → Daily posts → Run workflow.
 
 ## Editing

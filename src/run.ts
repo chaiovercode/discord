@@ -7,7 +7,7 @@ import { resources } from './jobs/resources.ts';
 import type { Job } from './jobs/types.ts';
 
 // Usage: node src/run.ts [job ...]
-// Without DISCORD_WEBHOOKS it prints each payload and saves no state.
+// Without any DISCORD_WEBHOOK_* variable it prints each payload and saves no state.
 
 const JOBS: Job<any>[] = [memes, resources, indiaMatch, movies];
 
@@ -16,7 +16,7 @@ const unknown = only.filter((n) => !JOBS.some((j) => j.name === n));
 if (unknown.length) throw new Error(`unknown job(s): ${unknown.join(', ')}. Known: ${JOBS.map((j) => j.name).join(', ')}`);
 
 const hooks = webhooks();
-if (!hooks && process.env.CI) throw new Error('DISCORD_WEBHOOKS secret is not set');
+if (!hooks && process.env.CI) throw new Error('no DISCORD_WEBHOOK_* secret is set');
 
 const state = readData<Record<string, unknown>>('state.json');
 const now = new Date();

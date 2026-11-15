@@ -36,7 +36,9 @@ jobs:
         run: node src/run.ts $JOBS
         env:
           JOBS: ${{ inputs.jobs }}
-          DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+          DISCORD_WEBHOOK_MEMES: ${{ secrets.DISCORD_WEBHOOK_MEMES }}
+          DISCORD_WEBHOOK_RESOURCES: ${{ secrets.DISCORD_WEBHOOK_RESOURCES }}
+          DISCORD_WEBHOOK_SPORTS: ${{ secrets.DISCORD_WEBHOOK_SPORTS }}
 
       # Always save state, so jobs that posted are not repeated when another job failed.
       # The daily commit also keeps GitHub from disabling the schedule in this public repo.

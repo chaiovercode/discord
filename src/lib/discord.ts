@@ -20,12 +20,16 @@ export type Message = {
 
 export const cut = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
 
-// DISCORD_WEBHOOKS is a JSON object of webhook name to URL, e.g. {"memes": "https://discord.com/api/webhooks/..."}.
-// A job whose webhook is missing from it is switched off. Unset means dry run.
+// One env var per channel: DISCORD_WEBHOOK_MEMES -> "memes". Empty ones are ignored
+// (GitHub passes an unset secret as ""). A job whose webhook is missing is switched off.
+// None set means dry run.
 export function webhooks(): Record<string, string> | null {
-  const raw = process.env.DISCORD_WEBHOOKS;
-  if (!raw) return null;
-  return JSON.parse(raw) as Record<string, string>;
+  const hooks = Object.fromEntries(
+    Object.entries(process.env)
+      .filter(([k, v]) => k.startsWith('DISCORD_WEBHOOK_') && v)
+      .map(([k, v]) => [k.slice('DISCORD_WEBHOOK_'.length).toLowerCase(), v as string]),
+  );
+  return Object.keys(hooks).length ? hooks : null;
 }
 
 export async function post(webhook: string, msg: Message): Promise<void> {
