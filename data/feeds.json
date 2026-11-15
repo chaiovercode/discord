@@ -1,30 +1,54 @@
 {
   "frontend": [
-    { "name": "Frontend Masters", "url": "https://frontendmasters.com/blog/feed/" },
-    { "name": "Smashing Magazine", "url": "https://www.smashingmagazine.com/feed/" },
-    { "name": "CSS-Tricks", "url": "https://css-tricks.com/feed/" },
+    { "name": "Dan Abramov", "url": "https://overreacted.io/rss.xml" },
+    { "name": "Jake Archibald", "url": "https://jakearchibald.com/posts.rss" },
     { "name": "Josh Comeau", "url": "https://www.joshwcomeau.com/rss.xml" },
+    { "name": "Ahmad Shadeed", "url": "https://ishadeed.com/feed.xml" },
+    { "name": "Alex Russell", "url": "https://infrequently.org/feed/" },
+    { "name": "Nolan Lawson", "url": "https://nolanlawson.com/feed/" },
+    { "name": "Zach Leatherman", "url": "https://www.zachleat.com/web/feed/" },
+    { "name": "TkDodo", "url": "https://tkdodo.eu/blog/rss.xml" },
+    { "name": "Kent C. Dodds", "url": "https://kentcdodds.com/blog/rss.xml" },
+    { "name": "Addy Osmani", "url": "https://addyosmani.com/rss.xml" },
+    { "name": "Bram.us", "url": "https://www.bram.us/feed/" },
     { "name": "web.dev", "url": "https://web.dev/static/blog/feed.xml" },
     { "name": "Chrome for Developers", "url": "https://developer.chrome.com/static/blog/feed.xml" },
-    { "name": "Bram.us", "url": "https://www.bram.us/feed/" },
-    { "name": "React", "url": "https://react.dev/rss.xml" }
+    { "name": "React", "url": "https://react.dev/rss.xml" },
+    { "name": "Frontend Masters", "url": "https://frontendmasters.com/blog/feed/" },
+    { "name": "Smashing Magazine", "url": "https://www.smashingmagazine.com/feed/" },
+    { "name": "CSS-Tricks", "url": "https://css-tricks.com/feed/" }
   ],
   "backend": [
+    { "name": "Marc Brooker", "url": "https://brooker.co.za/blog/rss.xml" },
+    { "name": "Murat Demirbas", "url": "https://muratbuffalo.blogspot.com/feeds/posts/default" },
+    { "name": "Dan Luu", "url": "https://danluu.com/atom.xml" },
+    { "name": "Phil Eaton", "url": "https://notes.eatonphil.com/rss.xml" },
+    { "name": "Julia Evans", "url": "https://jvns.ca/atom.xml" },
+    { "name": "Brandur", "url": "https://brandur.org/articles.atom" },
     { "name": "Martin Fowler", "url": "https://martinfowler.com/feed.atom" },
-    { "name": "ByteByteGo", "url": "https://blog.bytebytego.com/feed" },
-    { "name": "The Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed" },
+    { "name": "Werner Vogels", "url": "https://www.allthingsdistributed.com/atom.xml" },
+    { "name": "Fly.io", "url": "https://fly.io/blog/feed.xml" },
     { "name": "Cloudflare", "url": "https://blog.cloudflare.com/rss/" },
     { "name": "Netflix Tech Blog", "url": "https://netflixtechblog.com/feed" },
+    { "name": "GitHub Engineering", "url": "https://github.blog/engineering/feed/" },
+    { "name": "Meta Engineering", "url": "https://engineering.fb.com/feed/" },
+    { "name": "Slack Engineering", "url": "https://slack.engineering/feed/" },
     { "name": "PlanetScale", "url": "https://planetscale.com/blog/feed.atom" },
-    { "name": "Julia Evans", "url": "https://jvns.ca/atom.xml" },
-    { "name": "Brandur", "url": "https://brandur.org/articles.atom" }
+    { "name": "The Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed" },
+    { "name": "ByteByteGo", "url": "https://blog.bytebytego.com/feed" }
   ],
   "ai": [
     { "name": "Simon Willison", "url": "https://simonwillison.net/atom/entries/" },
-    { "name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml" },
-    { "name": "Latent Space", "url": "https://www.latent.space/feed" },
-    { "name": "Hamel Husain", "url": "https://hamel.dev/index.xml" },
+    { "name": "Andrej Karpathy", "url": "https://karpathy.bearblog.dev/feed/" },
+    { "name": "Lilian Weng", "url": "https://lilianweng.github.io/index.xml" },
+    { "name": "Sebastian Raschka", "url": "https://magazine.sebastianraschka.com/feed" },
+    { "name": "Interconnects", "url": "https://www.interconnects.ai/feed" },
+    { "name": "Chip Huyen", "url": "https://huyenchip.com/feed.xml" },
     { "name": "Eugene Yan", "url": "https://eugeneyan.com/rss/" },
-    { "name": "Lilian Weng", "url": "https://lilianweng.github.io/index.xml" }
+    { "name": "Hamel Husain", "url": "https://hamel.dev/index.xml" },
+    { "name": "Jay Alammar", "url": "https://jalammar.github.io/feed.xml" },
+    { "name": "Maarten Grootendorst", "url": "https://newsletter.maartengrootendorst.com/feed" },
+    { "name": "Latent Space", "url": "https://www.latent.space/feed" },
+    { "name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml" }
   ]
 }
