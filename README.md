@@ -5,7 +5,7 @@ Daily posts for the server, sent through channel webhooks by a GitHub Actions cr
 | Job | Channel (webhook key) | Posts |
 |---|---|---|
 | `resources` | `resources` | Richard's Reading List: at most one article each for frontend, backend and AI, picked by an LLM editor from the blogs in `data/feeds.json`, Lobsters (20+ votes) and Hacker News (300+ points), with a one-line reason, reading time and HN thread |
-| `india-match` | `sports` | India men's result after each match, and the next fixture when it changes, from the series pages on Wikipedia |
+| `india-match` | `sports` | India men's result after each match, and the next fixture (start time in IST) when it changes, from Wikipedia's series and tournament pages (World Cup, Asia Cup, Champions Trophy) |
 | `movies` | `sports` | Films in `data/movies.json`, 60 days before release, 7 days before, and on the day |
 
 ## Setup
