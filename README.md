@@ -4,6 +4,7 @@ Daily posts for the server, sent through channel webhooks by a GitHub Actions cr
 
 | Job | Channel (webhook key) | Posts |
 |---|---|---|
+| `news` | `news` | Gilfoyle's Briefing: top 5 in AI and tech and top 5 in the world from the last day of headlines in `data/news.json`, merged and ranked by an LLM editor that writes each headline and dek |
 | `resources` | `resources` | Richard's Reading List: at most one article each for frontend, backend and AI, picked by an LLM editor from the blogs in `data/feeds.json`, Lobsters (20+ votes) and Hacker News (300+ points), with a one-line reason, reading time and HN thread |
 | `india-match` | `sports` | India men's result after each match, and the next fixture (start time in IST) when it changes, from Wikipedia's series and tournament pages (World Cup, Asia Cup, Champions Trophy) |
 | `movies` | `sports` | Films in `data/movies.json`, 60 days before release, 7 days before, and on the day |
@@ -14,6 +15,7 @@ Daily posts for the server, sent through channel webhooks by a GitHub Actions cr
 2. Store each URL as its own repo secret, plus the Groq key the reading list's editor uses. Each command asks you to paste the value:
 
    ```sh
+   gh secret set DISCORD_WEBHOOK_NEWS --repo chaiovercode/discord
    gh secret set DISCORD_WEBHOOK_RESOURCES --repo chaiovercode/discord
    gh secret set DISCORD_WEBHOOK_SPORTS --repo chaiovercode/discord
    gh secret set GROQ_API_KEY --repo chaiovercode/discord

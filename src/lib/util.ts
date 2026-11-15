@@ -22,6 +22,16 @@ async function get(url: string): Promise<Response> {
 export const getJson = async <T>(url: string): Promise<T> => (await (await get(url)).json()) as T;
 export const getText = async (url: string): Promise<string> => (await get(url)).text();
 
+// Same article despite tracking params, "www." or a trailing slash.
+export function urlKey(url: string): string {
+  try {
+    const u = new URL(url);
+    return `${u.host.replace(/^www\./, '')}${u.pathname.replace(/\/$/, '')}`.toLowerCase();
+  } catch {
+    return url;
+  }
+}
+
 // Calendar helpers. The server lives in IST.
 export const IST = 'Asia/Kolkata';
 

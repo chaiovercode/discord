@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       jobs:
-        description: 'Space-separated jobs to run (resources india-match movies). Empty runs all.'
+        description: 'Space-separated jobs to run (news resources india-match movies). Empty runs all.'
         type: string
         default: ''
 
@@ -36,6 +36,7 @@ jobs:
         run: node src/run.ts $JOBS
         env:
           JOBS: ${{ inputs.jobs }}
+          DISCORD_WEBHOOK_NEWS: ${{ secrets.DISCORD_WEBHOOK_NEWS }}
           DISCORD_WEBHOOK_RESOURCES: ${{ secrets.DISCORD_WEBHOOK_RESOURCES }}
           DISCORD_WEBHOOK_SPORTS: ${{ secrets.DISCORD_WEBHOOK_SPORTS }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}

@@ -1,7 +1,7 @@
 import { cut, type Embed } from '../lib/discord.ts';
 import { plain, readFeed } from '../lib/feed.ts';
 import { askJson } from '../lib/llm.ts';
-import { getJson, getText, istDay, readData } from '../lib/util.ts';
+import { getJson, getText, istDay, readData, urlKey } from '../lib/util.ts';
 import type { Job } from './types.ts';
 
 // Richard's Reading List: at most one article a day each for frontend, backend and AI.
@@ -39,16 +39,6 @@ Pick at most one per team and never the same article twice. If nothing clears th
 For each pick write "why": one sentence, at most 25 words, plain words, saying what the reader will learn or be able to do. No hype words.
 
 Return JSON: {"frontend": {"id": number, "why": string} | null, "backend": {"id": number, "why": string} | null, "ai": {"id": number, "why": string} | null}`;
-
-// Same article despite tracking params, "www." or a trailing slash.
-function urlKey(url: string): string {
-  try {
-    const u = new URL(url);
-    return `${u.host.replace(/^www\./, '')}${u.pathname.replace(/\/$/, '')}`.toLowerCase();
-  } catch {
-    return url;
-  }
-}
 
 const host = (url: string) => new URL(url).host.replace(/^www\./, '');
 
