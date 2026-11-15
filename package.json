@@ -1,0 +1,19 @@
+{
+  "name": "chaiovercode-discord",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "post": "node src/run.ts",
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.12.1"
+  }
+}

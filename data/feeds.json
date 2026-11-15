@@ -1,0 +1,30 @@
+{
+  "frontend": [
+    { "name": "Frontend Masters", "url": "https://frontendmasters.com/blog/feed/" },
+    { "name": "Smashing Magazine", "url": "https://www.smashingmagazine.com/feed/" },
+    { "name": "CSS-Tricks", "url": "https://css-tricks.com/feed/" },
+    { "name": "Josh Comeau", "url": "https://www.joshwcomeau.com/rss.xml" },
+    { "name": "web.dev", "url": "https://web.dev/static/blog/feed.xml" },
+    { "name": "Chrome for Developers", "url": "https://developer.chrome.com/static/blog/feed.xml" },
+    { "name": "Bram.us", "url": "https://www.bram.us/feed/" },
+    { "name": "React", "url": "https://react.dev/rss.xml" }
+  ],
+  "backend": [
+    { "name": "Martin Fowler", "url": "https://martinfowler.com/feed.atom" },
+    { "name": "ByteByteGo", "url": "https://blog.bytebytego.com/feed" },
+    { "name": "The Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed" },
+    { "name": "Cloudflare", "url": "https://blog.cloudflare.com/rss/" },
+    { "name": "Netflix Tech Blog", "url": "https://netflixtechblog.com/feed" },
+    { "name": "PlanetScale", "url": "https://planetscale.com/blog/feed.atom" },
+    { "name": "Julia Evans", "url": "https://jvns.ca/atom.xml" },
+    { "name": "Brandur", "url": "https://brandur.org/articles.atom" }
+  ],
+  "ai": [
+    { "name": "Simon Willison", "url": "https://simonwillison.net/atom/entries/" },
+    { "name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml" },
+    { "name": "Latent Space", "url": "https://www.latent.space/feed" },
+    { "name": "Hamel Husain", "url": "https://hamel.dev/index.xml" },
+    { "name": "Eugene Yan", "url": "https://eugeneyan.com/rss/" },
+    { "name": "Lilian Weng", "url": "https://lilianweng.github.io/index.xml" }
+  ]
+}

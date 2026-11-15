@@ -1,0 +1,55 @@
+name: Daily posts
+
+on:
+  schedule:
+    - cron: '30 3 * * *' # 09:00 IST
+  workflow_dispatch:
+    inputs:
+      jobs:
+        description: 'Space-separated jobs to run (memes resources india-match movies). Empty runs all.'
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Post to Discord
+        # Passed through env, not inlined, so the input cannot inject shell.
+        run: node src/run.ts $JOBS
+        env:
+          JOBS: ${{ inputs.jobs }}
+          DISCORD_WEBHOOKS: ${{ secrets.DISCORD_WEBHOOKS }}
+
+      # Always save state, so jobs that posted are not repeated when another job failed.
+      # The daily commit also keeps GitHub from disabling the schedule in this public repo.
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "discord-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          if git diff --cached --quiet; then
+            echo "No state changes."
+            exit 0
+          fi
+          git commit -m "Update state for $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main
