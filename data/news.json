@@ -23,6 +23,7 @@
     { "name": "CBS News", "url": "https://www.cbsnews.com/latest/rss/world" },
     { "name": "The Hindu", "url": "https://www.thehindu.com/news/international/feeder/default.rss" },
     { "name": "The Hindu", "url": "https://www.thehindu.com/news/national/feeder/default.rss" },
-    { "name": "The Indian Express", "url": "https://indianexpress.com/section/india/feed/" }
+    { "name": "Hindustan Times", "url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml" },
+    { "name": "NDTV", "url": "https://feeds.feedburner.com/ndtvnews-india-news" }
   ]
 }
