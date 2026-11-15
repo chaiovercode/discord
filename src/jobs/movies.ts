@@ -71,7 +71,7 @@ export const movies: Job<State> = {
     }
 
     const messages = [...due].map(([left, embeds]) => ({
-      username: 'Big Releases',
+      username: "Erlich's Premieres",
       content: `**In cinemas ${left === 0 ? 'today' : `in ${left} days`}**`,
       embeds: embeds.slice(0, 10),
     }));

@@ -63,7 +63,7 @@ export const resources: Job<State> = {
     if (embeds.length === 0) return { messages: [], state: { seen } };
 
     return {
-      messages: [{ username: 'Daily Reads', content: "**Today's reads**", embeds }],
+      messages: [{ username: "Richard's Reading List", content: "**Today's reads**", embeds }],
       state: { seen: [...seen, ...posted].slice(-500) },
     };
   },

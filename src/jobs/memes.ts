@@ -25,7 +25,7 @@ export const memes: Job<State> = {
     return {
       messages: [
         {
-          username: 'Meme of the Day',
+          username: "Jian-Yang's Memes",
           embeds: [
             {
               title: cut(best.title, 256),
