@@ -34,7 +34,7 @@ export const indiaMatch: Job<State> = {
     return {
       messages: [
         {
-          username: "Jared's Match Day",
+          username: "Russ's Match Day",
           content: '**Next India match**',
           embeds: [
             {
