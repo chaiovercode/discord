@@ -20,7 +20,7 @@ export type Message = {
 
 export const cut = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
 
-// One env var per channel: DISCORD_WEBHOOK_MEMES -> "memes". Empty ones are ignored
+// One env var per channel: DISCORD_WEBHOOK_SPORTS -> "sports". Empty ones are ignored
 // (GitHub passes an unset secret as ""). A job whose webhook is missing is switched off.
 // None set means dry run.
 export function webhooks(): Record<string, string> | null {

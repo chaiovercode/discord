@@ -4,10 +4,9 @@ Daily posts for the server, sent through channel webhooks by a GitHub Actions cr
 
 | Job | Channel (webhook key) | Posts |
 |---|---|---|
-| `memes` | `memes` | Top image post from r/ProgrammerHumor's hot list |
 | `resources` | `resources` | One fresh read each for frontend, backend and AI, from the blogs in `data/feeds.json` |
-| `india-match` | `sports` | India's next cricket match, once each time the next fixture changes |
-| `movies` | `sports` | Films in `data/movies.json`, 30 days before release, 7 days before, and on the day |
+| `india-match` | `sports` | India men's result after each match, and the next fixture when it changes, from the series pages on Wikipedia |
+| `movies` | `sports` | Films in `data/movies.json`, 60 days before release, 7 days before, and on the day |
 
 ## Setup
 
@@ -15,7 +14,6 @@ Daily posts for the server, sent through channel webhooks by a GitHub Actions cr
 2. Store each URL as its own repo secret. Each command asks you to paste the URL:
 
    ```sh
-   gh secret set DISCORD_WEBHOOK_MEMES --repo chaiovercode/discord
    gh secret set DISCORD_WEBHOOK_RESOURCES --repo chaiovercode/discord
    gh secret set DISCORD_WEBHOOK_SPORTS --repo chaiovercode/discord
    ```

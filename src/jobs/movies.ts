@@ -2,10 +2,10 @@ import type { Embed } from '../lib/discord.ts';
 import { dayNumber, getJson, istDate, istDay, readData } from '../lib/util.ts';
 import type { Job } from './types.ts';
 
-// Announces each film in data/movies.json 30 days before release, 7 days before, and on the day.
+// Announces each film in data/movies.json 60 days before release, 7 days before, and on the day.
 // Release dates come from the film's Wikipedia infobox, so they follow date changes without edits here.
 
-const MILESTONES = [30, 7, 0];
+const MILESTONES = [60, 7, 0];
 
 // Film title -> milestones already announced, so a missed run still catches up.
 type State = Record<string, number[]>;

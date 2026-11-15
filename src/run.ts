@@ -1,7 +1,6 @@
 import { post, webhooks } from './lib/discord.ts';
 import { readData, writeData } from './lib/util.ts';
 import { indiaMatch } from './jobs/india-match.ts';
-import { memes } from './jobs/memes.ts';
 import { movies } from './jobs/movies.ts';
 import { resources } from './jobs/resources.ts';
 import type { Job } from './jobs/types.ts';
@@ -9,7 +8,7 @@ import type { Job } from './jobs/types.ts';
 // Usage: node src/run.ts [job ...]
 // Without any DISCORD_WEBHOOK_* variable it prints each payload and saves no state.
 
-const JOBS: Job<any>[] = [memes, resources, indiaMatch, movies];
+const JOBS: Job<any>[] = [resources, indiaMatch, movies];
 
 const only = process.argv.slice(2);
 const unknown = only.filter((n) => !JOBS.some((j) => j.name === n));
