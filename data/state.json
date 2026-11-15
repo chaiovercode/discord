@@ -1,1 +1,18 @@
-{}
+{
+  "memes": {
+    "seen": [
+      "https://redd.it/1xq28r6"
+    ]
+  },
+  "resources": {
+    "seen": [
+      "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+      "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
+    ]
+  },
+  "india-match": {
+    "eventId": "2524712"
+  },
+  "movies": {}
+}
