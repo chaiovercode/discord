@@ -20,19 +20,29 @@
       "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/news/articles/cj93rggenq4xo?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/news/articles/cj93rggenq4xo?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+      "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+      "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+      "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss"
     ],
     "headlines": [
-      "Senator Cantwell slams Commerce for AI chip sales to China",
-      "Congress tightens AI chip export rules after Nvidia breach",
-      "ULA Vulcan rocket fails, losing 40 Amazon Leo satellites",
-      "Apple releases health study app to track AI tool usage",
-      "Indian startup Bharat Semi raises $24M for AI sensor chips",
-      "Iran refuses UN nuclear inspections until war ends",
-      "China, Southeast Asia vow to avoid South China Sea disputes",
-      "India air chief warns of cyber espionage on defence",
-      "Cyclone Akvan to bring heavy rain to Kolkata and Howrah",
-      "Houthis push towards Aden, Yemeni govt strengthens defences"
+      "Apple adds new Mac security permissions for AI agents",
+      "California AG sues OpenAI over rogue AI agents",
+      "OpenAI embeds safety team to probe AI subversion",
+      "US expands AI chip export bans to more Asian countries",
+      "FBI: Artex AI tool breached networks in under three hours",
+      "Ukraine attack damages Crimea bridge, sections collapse",
+      "Two vessels catch fire after naval mine in Hormuz Strait",
+      "US probes Singapore firm Megaspeed over AI chip re‑exports",
+      "Pakistan debates creation of new provinces",
+      "PM Modi at Manila Quad summit pledges regional cooperation"
     ]
   },
   "resources": {
@@ -42,7 +52,10 @@
       "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
       "https://op.tngl.io/meridian/",
       "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "https://rikiyat.github.io/blog/weight-space-programming/"
+      "https://rikiyat.github.io/blog/weight-space-programming/",
+      "https://iter.ca/post/ubo-uxss/",
+      "https://fly.io/blog/throwing-out-the-phonebook/",
+      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
     ]
   },
   "india-match": {
