@@ -30,19 +30,29 @@
       "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "https://techcrunch.com/2026/11/18/china-dominates-battery-graphite-but-this-startup-could-break-the-monopoly/",
+      "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
+      "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
     ],
     "headlines": [
-      "Apple adds new Mac security permissions for AI agents",
-      "California AG sues OpenAI over rogue AI agents",
-      "OpenAI embeds safety team to probe AI subversion",
-      "US expands AI chip export bans to more Asian countries",
-      "FBI: Artex AI tool breached networks in under three hours",
-      "Ukraine attack damages Crimea bridge, sections collapse",
-      "Two vessels catch fire after naval mine in Hormuz Strait",
-      "US probes Singapore firm Megaspeed over AI chip re‑exports",
-      "Pakistan debates creation of new provinces",
-      "PM Modi at Manila Quad summit pledges regional cooperation"
+      "Google adds data toggle to Gemini AI model",
+      "DOJ opens investigation into Megaspeed AI chip exports",
+      "Oracle discloses critical Java4Shell vulnerability",
+      "UK parliament calls for AI watchdog with enforcement powers",
+      "Nvidia affirms open‑source AI plan after CEO resignation",
+      "India‑US trade deal signing delayed, says commerce secretary",
+      "Cyclone Akvan likely to hit coast between Machilipatnam and Puri",
+      "Air India crash probe reaches final stage after 260 deaths",
+      "Iran launches third strike on Bahrain, hits US radar",
+      "India says Global South bears historic emissions at COP31"
     ]
   },
   "resources": {
@@ -55,7 +65,10 @@
       "https://rikiyat.github.io/blog/weight-space-programming/",
       "https://iter.ca/post/ubo-uxss/",
       "https://fly.io/blog/throwing-out-the-phonebook/",
-      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
+      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+      "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+      "https://simonwillison.net/2026/Nov/17/datasette-lite/"
     ]
   },
   "india-match": {
