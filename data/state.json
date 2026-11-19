@@ -40,19 +40,29 @@
       "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
+      "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
     ],
     "headlines": [
-      "Google adds data toggle to Gemini AI model",
-      "DOJ opens investigation into Megaspeed AI chip exports",
-      "Oracle discloses critical Java4Shell vulnerability",
-      "UK parliament calls for AI watchdog with enforcement powers",
-      "Nvidia affirms open‑source AI plan after CEO resignation",
-      "India‑US trade deal signing delayed, says commerce secretary",
-      "Cyclone Akvan likely to hit coast between Machilipatnam and Puri",
-      "Air India crash probe reaches final stage after 260 deaths",
-      "Iran launches third strike on Bahrain, hits US radar",
-      "India says Global South bears historic emissions at COP31"
+      "Microsoft offers buyouts to 60,000 employees",
+      "Anthropic sets IPO price at $83 per share",
+      "Irish credit unions hit by data breach affecting 40 members",
+      "TfL pulls Oyster photocard site after credential hack",
+      "Anduril co‑founder warns AI cyberattacks outpace defenses",
+      "ICJ convicts Myanmar of genocide against Rohingya",
+      "Israel completes Gaza ground incursion past Yellow Line",
+      "Cyclone Akvan makes landfall, Odisha orders mass evacuations",
+      "Malaysia to end visa‑free entry for Indian nationals in 2027",
+      "India sees rise in online censorship after 'Cockroach' protests"
     ]
   },
   "resources": {
@@ -68,14 +78,18 @@
       "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
       "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
       "https://martinfowler.com/articles/deterministic-simulation-testing.html",
-      "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+      "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+      "https://muratbuffalo.blogspot.com/2026/11/tlaps-bench-formally-proving.html",
+      "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
     ]
   },
   "india-match": {
     "posted": [
-      "Indian cricket team in New Zealand in 2026–27#5th ODI"
+      "Indian cricket team in New Zealand in 2026–27#5th ODI",
+      "Indian cricket team in New Zealand in 2026–27#1st Test"
     ],
-    "nextId": "Indian cricket team in New Zealand in 2026–27#1st Test"
+    "nextId": "Indian cricket team in New Zealand in 2026–27#2nd Test"
   },
   "movies": {
     "Avengers: Doomsday": [
