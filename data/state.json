@@ -50,19 +50,29 @@
       "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+      "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+      "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
+      "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss"
     ],
     "headlines": [
-      "Microsoft offers buyouts to 60,000 employees",
-      "Anthropic sets IPO price at $83 per share",
-      "Irish credit unions hit by data breach affecting 40 members",
-      "TfL pulls Oyster photocard site after credential hack",
-      "Anduril co‑founder warns AI cyberattacks outpace defenses",
-      "ICJ convicts Myanmar of genocide against Rohingya",
-      "Israel completes Gaza ground incursion past Yellow Line",
-      "Cyclone Akvan makes landfall, Odisha orders mass evacuations",
-      "Malaysia to end visa‑free entry for Indian nationals in 2027",
-      "India sees rise in online censorship after 'Cockroach' protests"
+      "U.S. national cyber director announces resignation",
+      "Apple reportedly developing AI agent for macOS",
+      "Google adds Mac computer use to Gemini AI agent",
+      "Meta's Muse AI agent flagged for exposing private data",
+      "Chase, Visa, Mastercard report third‑party cyberattack",
+      "Russian missiles strike three Kyiv bridges, killing five",
+      "White House fires cyber‑security chief after tech outages",
+      "UK, EU agree youth mobility scheme for 100,000 travelers",
+      "Cumin‑flavoured sodas gain market share in India",
+      "Europe urges use of pledged climate funds for Africa"
     ]
   },
   "resources": {
@@ -81,7 +91,10 @@
       "https://simonwillison.net/2026/Nov/17/datasette-lite/",
       "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
       "https://muratbuffalo.blogspot.com/2026/11/tlaps-bench-formally-proving.html",
-      "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+      "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "https://css-tricks.com/almanac/functions/s/scroll-state/",
+      "https://kapteko.com/15-million-webservers/",
+      "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
     ]
   },
   "india-match": {
