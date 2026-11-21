@@ -60,19 +60,29 @@
       "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+      "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
+      "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss"
     ],
     "headlines": [
-      "U.S. national cyber director announces resignation",
-      "Apple reportedly developing AI agent for macOS",
-      "Google adds Mac computer use to Gemini AI agent",
-      "Meta's Muse AI agent flagged for exposing private data",
-      "Chase, Visa, Mastercard report third‑party cyberattack",
-      "Russian missiles strike three Kyiv bridges, killing five",
-      "White House fires cyber‑security chief after tech outages",
-      "UK, EU agree youth mobility scheme for 100,000 travelers",
-      "Cumin‑flavoured sodas gain market share in India",
-      "Europe urges use of pledged climate funds for Africa"
+      "Chinese hackers deploy AI agents to exploit zero‑day",
+      "Google adds AI chat history to search page, removes button",
+      "Google will discontinue Assistant on smart speakers in 2025",
+      "Transcription firm leaks police interview data online",
+      "Researcher plants canaries in AI supply chain, finds privacy breach",
+      "India concludes Quad, ASEAN, East Asia summits in Manila",
+      "US and Israel weigh new joint strike on Iran",
+      "Indian sentenced to 19 years for US Sikh leader murder plot",
+      "Russian missiles land in Poland, NATO warns of escalation",
+      "FSSAI suspends licences of four Hyderabad eateries"
     ]
   },
   "resources": {
@@ -94,7 +104,10 @@
       "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
       "https://css-tricks.com/almanac/functions/s/scroll-state/",
       "https://kapteko.com/15-million-webservers/",
-      "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+      "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "https://eaj.no/posts/open-graph-images-with-typst/",
+      "https://savyasacheejha.com/posts/why-odhcpd/",
+      "https://eugeneyan.com/writing/public-evals"
     ]
   },
   "india-match": {
